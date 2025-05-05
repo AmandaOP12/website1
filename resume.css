@@ -1,0 +1,165 @@
+body{
+    margin: 0;
+    background-color: rgb(22,22,22);
+    align-content: center;
+}
+.title{
+    background-color: 22,22,22;
+    padding: 1rem;
+    font-size: 20px;
+    border: 10px solid ;
+    margin: 0;
+}
+.header{
+    background-color: rgb(22, 22, 22);
+    padding: 1rem;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    border: 10px solid rgb(22, 22, 22);
+    margin: 0;
+    height: 70px;
+}
+div{
+    padding: 10px;
+}
+.menu{
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-size: 25px;
+    background-color: rgb(22, 22, 22);
+    text-align: center;
+}
+#bolder{
+    font-weight: bold;
+}
+p{
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    background-color: rgb(22, 22, 22);
+    align-content: center;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 500px;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(22, 22, 22);
+}
+ul{
+    list-style: none;
+    background-color: rgb(22, 22, 22);
+    padding: 0;
+    text-decoration: none;
+}
+li{
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+}
+.menu ul li a{
+    display: block;
+    padding: 15px;
+    text-align:center;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(255, 255, 255);
+}
+ul li ul.menu li{
+    display: block;
+    list-style: none;
+    display: inline-block;
+    width: 150px;
+    background-color: rgb(22, 22, 22);
+    position: absolute;
+    /* z-index: 999; */
+    display: none;
+}
+.menu ul li:hover a{
+    color: rgb(164, 164, 164)
+}
+.resume{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(22, 22, 22);}
+.btt{
+    position:relative;
+    bottom: 20px;
+    border: 10px solid rgb(22, 22, 22);
+    background-color: rgb(22, 22, 22);
+    font-size: 20px;
+    padding-left: 35px;
+}
+.btt a{
+    text-decoration: none;
+}
+.btt a:hover p{
+    color: rgb(164, 164, 164);
+}
+.contact{
+    background-color: rgb(22, 22, 22);
+    padding: 1rem;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(255, 255, 255);
+    border: 10px solid rgb(22, 22, 22);
+    margin: 0;
+    font-weight: bold;
+}
+.info{
+    background-color: rgb(22, 22, 22);
+    padding: 1rem;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(255, 255, 255);
+    border: 10px solid rgb(22, 22, 22);
+    margin: 0;
+    display: list-item;
+    width: 50%;
+    /* height: 130px; */
+}
+footer{
+    position: relative;
+    display:inline-flex;
+    bottom: 0px;
+    width: 100%;
+}
+footer ul li{
+    display: block;
+    margin-left: 20px;
+}
+.links{
+    position: relative;
+    width: 50%;
+    padding-top: 50px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(255, 255, 255);
+    text-align: right;
+    text-decoration: none;
+    margin-right: 36px;
+}
+.linkedin a:hover{
+    color: rgb(164, 164, 164);
+}
+.behance a:hover{
+    color: rgb(164, 164, 164);
+}
+.links ul li a{
+    text-align: right;
+}
+.link{
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 26px;
+}
+.social a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
