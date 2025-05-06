@@ -299,6 +299,15 @@ footer ul li{
     flex-direction: row-reverse;
     padding: 0;
 }
+.foffimages{
+    width: 400px;
+}
+.htsimages{
+    width: 400px;
+}
+.starimages{
+    width: 400px;
+}
 .tablinks{
 	border: none;
 	padding: 0;
