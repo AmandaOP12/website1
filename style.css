@@ -160,22 +160,22 @@ p{
 .s7 img{
     margin-left: 30px;
 }
-.s1:hover {
+.s1:hover{
     width: 500px;
     justify-content: flex-start;
     background-position: 600px;
 }
-.s2:hover {
+.s2:hover{
     width: 500px;
     justify-content: flex-start;
     background-position: 700px;
 }
-.s3:hover {
+.s3:hover{
     width: 500px;
     justify-content: flex-start;
     background-position: 600px;
 }
-.s4:hover {
+.s4:hover{
     width: 500px;
     justify-content: flex-start;
     background-position: 600px;
