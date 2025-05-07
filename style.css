@@ -40,7 +40,7 @@ p{
 }
 .skip-link:focus{
     top: 0;
-  }
+}
 .content{
     display: flex;
     justify-content: center;
