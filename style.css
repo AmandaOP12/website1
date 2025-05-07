@@ -40,7 +40,7 @@ p{
 }
 .skip-link:focus{
     top: 0;
-}
+  }
 .content{
     display: flex;
     justify-content: center;
@@ -108,11 +108,12 @@ p{
     margin-left: 30px;
 }
 .s4{
-    background-image: url(img/orange.png);
     height: 100%;
     width: 100px;
     padding: 0;
     margin: 0;
+    background-image: url(img/back4.1.png);
+    background-position: 500px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -170,6 +171,11 @@ p{
     background-position: 700px;
 }
 .s3:hover {
+    width: 500px;
+    justify-content: flex-start;
+    background-position: 600px;
+}
+.s4:hover {
     width: 500px;
     justify-content: flex-start;
     background-position: 600px;
@@ -297,6 +303,12 @@ footer ul li{
     gap: 15px;
     justify-content: center;
 }
+.jr-content{
+    background-color: rgb(218, 116, 50);
+    width: 700px;
+    gap: 15px;
+    justify-content: center;
+}
 .tabcontent{
     display: none;
     flex-direction: row-reverse;
@@ -309,6 +321,9 @@ footer ul li{
     width: 400px;
 }
 .starimages{
+    width: 400px;
+}
+.jrimages{
     width: 400px;
 }
 .tablinks{
@@ -328,5 +343,10 @@ footer ul li{
 .star-words{
     color: black;
     background-color: rgb(222, 202, 44);
+    width: 30%;
+}
+.jr-words{
+    color: black;
+    background-color: rgb(218, 116, 50);
     width: 30%;
 }
